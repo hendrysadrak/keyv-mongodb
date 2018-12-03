@@ -1,0 +1,44 @@
+{
+	"name": "keyv-mongodb",
+	"version": "0.1.0",
+	"description": "MongoDB storage adapter for Keyv with support for Mongoose",
+	"main": "lib/keyv-mongodb.js",
+	"scripts": {
+		"test": "nyc ava"
+	},
+	"keywords": [
+		"mongo",
+		"mongodb",
+		"keyv",
+		"storage",
+		"adapter",
+		"key",
+		"value",
+		"store",
+		"cache",
+		"mongoose"
+	],
+	"ava": {
+		"require": [
+			"requirable"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hendrysadrak/keyv-mongodb.git"
+	},
+	"author": "Hendry Sadrak (https://www.hendrysadrak.com)",
+	"license": "ISC",
+	"homepage": "https://github.com/hendrysadrak/keyv-mongodb",
+	"dependencies": {
+		"mongodb": "^3"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"coveralls": "^3.0.0",
+		"keyv": "*",
+		"@keyv/test-suite": "*",
+		"nyc": "^11.0.3",
+		"requirable": "^1.0.1"
+	}
+}
