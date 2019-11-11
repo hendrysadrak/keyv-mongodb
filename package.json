@@ -1,6 +1,6 @@
 {
 	"name": "keyv-mongodb",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"description": "MongoDB storage adapter for Keyv with support for Mongoose",
 	"main": "lib/keyv-mongodb.js",
 	"scripts": {
