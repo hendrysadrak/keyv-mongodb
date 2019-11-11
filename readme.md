@@ -7,7 +7,7 @@
 
 * Support [Mongoose](http://mongoosejs.com/index.html) `>= 4.1.2+`
 * Support [native MongoDB driver](http://mongodb.github.io/node-mongodb-native/) `>= 3`
-* Support Node.js 6, 8 and 10
+* Support Node.js 8, 10 and 12
 * Support [MongoDB](https://www.mongodb.com/) `>= 3.0`
 
 
