@@ -6,6 +6,13 @@
 	"scripts": {
 		"test": "nyc ava"
 	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"files": [
+		"lib/",
+		"readme.md"
+	],
 	"keywords": [
 		"mongo",
 		"mongodb",
