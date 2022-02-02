@@ -38,14 +38,14 @@
 	"license": "ISC",
 	"homepage": "https://github.com/hendrysadrak/keyv-mongodb",
 	"dependencies": {
-		"mongodb": ">=4.3.1"
+		"mongodb": "^4.3.1"
 	},
 	"devDependencies": {
-		"@keyv/test-suite": "*",
+		"@keyv/test-suite": "^1.7.0",
 		"ava": "^0.25.0",
-		"coveralls": "^3.0.7",
-		"keyv": "*",
-		"nyc": "^11.0.3",
+		"coveralls": "^3.1.1",
+		"keyv": "^4.1.0",
+		"nyc": "^11.9.0",
 		"requirable": "^1.0.5"
 	},
 	"packageManager": "yarn@3.1.1"

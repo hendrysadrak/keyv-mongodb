@@ -69,7 +69,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keyv/test-suite@npm:*":
+"@keyv/test-suite@npm:^1.7.0":
   version: 1.7.0
   resolution: "@keyv/test-suite@npm:1.7.0"
   dependencies:
@@ -1589,7 +1589,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coveralls@npm:^3.0.7":
+"coveralls@npm:^3.1.1":
   version: 3.1.1
   resolution: "coveralls@npm:3.1.1"
   dependencies:
@@ -3467,17 +3467,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "keyv-mongodb@workspace:."
   dependencies:
-    "@keyv/test-suite": "*"
+    "@keyv/test-suite": ^1.7.0
     ava: ^0.25.0
-    coveralls: ^3.0.7
-    keyv: "*"
-    mongodb: ">=4.3.1"
-    nyc: ^11.0.3
+    coveralls: ^3.1.1
+    keyv: ^4.1.0
+    mongodb: ^4.3.1
+    nyc: ^11.9.0
     requirable: ^1.0.5
   languageName: unknown
   linkType: soft
 
-"keyv@npm:*":
+"keyv@npm:^4.1.0":
   version: 4.1.0
   resolution: "keyv@npm:4.1.0"
   dependencies:
@@ -4059,7 +4059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:>=4.3.1":
+"mongodb@npm:^4.3.1":
   version: 4.3.1
   resolution: "mongodb@npm:4.3.1"
   dependencies:
@@ -4230,7 +4230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nyc@npm:^11.0.3":
+"nyc@npm:^11.9.0":
   version: 11.9.0
   resolution: "nyc@npm:11.9.0"
   dependencies:
