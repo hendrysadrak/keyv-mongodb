@@ -134,6 +134,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:< 17.0.6":
+  version: 17.0.5
+  resolution: "@types/node@npm:17.0.5"
+  checksum: 105535e78722515c26cfdc1b0cbf1b19f55fe53b814e2e90d8b1e653bc63136d4760c7efc102eca111c6d124a291e37d60d761d569a3f4afb3fba05bad5d9ade
+  languageName: node
+  linkType: hard
+
 "@types/responselike@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/responselike@npm:1.0.0"
@@ -1098,7 +1105,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^4.6.1":
+"bson@npm:^4.2.2, bson@npm:^4.6.0, bson@npm:^4.6.1":
   version: 4.6.1
   resolution: "bson@npm:4.6.1"
   dependencies:
@@ -1682,7 +1689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1":
+"debug@npm:4, debug@npm:4.x, debug@npm:^4.1.0, debug@npm:^4.3.1":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
   dependencies:
@@ -3463,6 +3470,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kareem@npm:2.3.3":
+  version: 2.3.3
+  resolution: "kareem@npm:2.3.3"
+  checksum: 6acbfeadce9b781844bfce6ecb8f721af2e6453c55e42d14bc9cf337cf4748bc4a084f915c4206e12d33f1c973f65d5010afb6e225b1f772a7b6e40e84da4efc
+  languageName: node
+  linkType: hard
+
 "keyv-mongodb@workspace:.":
   version: 0.0.0-use.local
   resolution: "keyv-mongodb@workspace:."
@@ -3472,8 +3486,12 @@ __metadata:
     coveralls: ^3.1.1
     keyv: ^4.1.0
     mongodb: ^4.3.1
+    mongoose: ^6.1.10
     nyc: ^11.9.0
     requirable: ^1.0.5
+  dependenciesMeta:
+    mongoose:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -4049,13 +4067,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb-connection-string-url@npm:^2.4.1":
+"mongodb-connection-string-url@npm:^2.3.2, mongodb-connection-string-url@npm:^2.4.1":
   version: 2.4.1
   resolution: "mongodb-connection-string-url@npm:2.4.1"
   dependencies:
     "@types/whatwg-url": ^8.2.1
     whatwg-url: ^11.0.0
   checksum: 119c908ab543f75cf80e2b29b1034071d85d8c59a93515125b10bf97b428a1c051a1dc011388961fcc733fc48972a375d70d5a8e7faa0ac7c5ab701aff7678bd
+  languageName: node
+  linkType: hard
+
+"mongodb@npm:4.2.2":
+  version: 4.2.2
+  resolution: "mongodb@npm:4.2.2"
+  dependencies:
+    bson: ^4.6.0
+    denque: ^2.0.1
+    mongodb-connection-string-url: ^2.3.2
+    saslprep: ^1.0.3
+  dependenciesMeta:
+    saslprep:
+      optional: true
+  checksum: 645cc8889ee093c0d6479638aa4f5b3e587b84be5179a35993f0796fda6b25d22c4b6f7d5f27b4d23c3aacb694db2ff696ea0a5080ddc745508ffff95131f3b5
   languageName: node
   linkType: hard
 
@@ -4072,6 +4105,39 @@ __metadata:
     saslprep:
       optional: true
   checksum: 5684b5481bfbf73e4628b8bad7018cd4436fdb23b9548fb38dece3e079b1716fe870d41070a505d13ae4d86c107315afaf34891ba2b64925eb4fa4cd5bb70300
+  languageName: node
+  linkType: hard
+
+"mongoose@npm:^6.1.10":
+  version: 6.1.10
+  resolution: "mongoose@npm:6.1.10"
+  dependencies:
+    "@types/node": < 17.0.6
+    bson: ^4.2.2
+    kareem: 2.3.3
+    mongodb: 4.2.2
+    mpath: 0.8.4
+    mquery: 4.0.2
+    ms: 2.1.2
+    regexp-clone: 1.0.0
+    sift: 13.5.2
+  checksum: 718f6f6f8d25e2a7d533643891c81364cdbbf382d01141b94ad0a0ab1b743878c0f72ecb68b7f5b3628240033ea652b4e049b91ef8114069b37650d5b37ba435
+  languageName: node
+  linkType: hard
+
+"mpath@npm:0.8.4":
+  version: 0.8.4
+  resolution: "mpath@npm:0.8.4"
+  checksum: 06ad1d443766626fa361b67a4eca9cd4c36a71e475e92e8a5c242dbbc9a911adac00ce971177843b48475356df609f847342548da7701a976a2ab4116135caf0
+  languageName: node
+  linkType: hard
+
+"mquery@npm:4.0.2":
+  version: 4.0.2
+  resolution: "mquery@npm:4.0.2"
+  dependencies:
+    debug: 4.x
+  checksum: 39ac308294fe26fe214fd117a9a2e92f754ee00193d3d8602b23c13cf677688faf8417fc74fa18940d51358bf04105ce279364a396b35fd23d73d452f860a098
   languageName: node
   linkType: hard
 
@@ -4924,6 +4990,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regexp-clone@npm:1.0.0":
+  version: 1.0.0
+  resolution: "regexp-clone@npm:1.0.0"
+  checksum: ca4960bbdc4237c84813b12aed351606be7db60a8c8867ef46b44f00eec4e83f51b31de34e294900517db9d7a39636117af80916f6ce7dc45ea00cae3c6d6fc3
+  languageName: node
+  linkType: hard
+
 "regexp.prototype.flags@npm:^1.2.0":
   version: 1.4.1
   resolution: "regexp.prototype.flags@npm:1.4.1"
@@ -5289,6 +5362,13 @@ __metadata:
   version: 1.0.0
   resolution: "shebang-regex@npm:1.0.0"
   checksum: 404c5a752cd40f94591dfd9346da40a735a05139dac890ffc229afba610854d8799aaa52f87f7e0c94c5007f2c6af55bdcaeb584b56691926c5eaf41dc8f1372
+  languageName: node
+  linkType: hard
+
+"sift@npm:13.5.2":
+  version: 13.5.2
+  resolution: "sift@npm:13.5.2"
+  checksum: 31951836c464b995b25f888876dea9c58c7a3eaa419d2ed271776d55db2d1019c6438ee458047d3c16bc93f0a329366dc535dc3a6afc42038949dc2a6a548f61
   languageName: node
   linkType: hard
 

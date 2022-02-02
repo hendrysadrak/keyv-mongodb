@@ -1,6 +1,6 @@
 {
 	"name": "keyv-mongodb",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "MongoDB storage adapter for Keyv with support for Mongoose",
 	"main": "lib/keyv-mongodb.js",
 	"scripts": {
@@ -40,11 +40,15 @@
 	"dependencies": {
 		"mongodb": "^4.3.1"
 	},
+	"optionalDependencies": {
+		"mongoose": "^6.1.10"
+	},
 	"devDependencies": {
 		"@keyv/test-suite": "^1.7.0",
 		"ava": "^0.25.0",
 		"coveralls": "^3.1.1",
 		"keyv": "^4.1.0",
+		"mongoose": "^6.1.10",
 		"nyc": "^11.9.0",
 		"requirable": "^1.0.5"
 	},
