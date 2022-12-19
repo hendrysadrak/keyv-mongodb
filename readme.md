@@ -16,7 +16,7 @@ yarn add keyv keyv-mongodb mongodb
 
 - Support [Mongoose](http://mongoosejs.com/index.html) `>= 6`
 - Support [native MongoDB driver](http://mongodb.github.io/node-mongodb-native/) `>= 4`
-- Support Node.js 10-17
+- Support Node.js >=10
 
 ### Connection to MongoDB
 
