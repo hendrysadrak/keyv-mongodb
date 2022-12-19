@@ -2,6 +2,16 @@
 
 **MongoDB storage adapter for Keyv with support for Mongoose**
 
+## Installation
+
+`mongodb` and `mongoose` are both peerDependecies. Install either one (or both) you'll be using with this package.
+
+```bash
+yarn add keyv keyv-mongodb mongoose
+# or
+yarn add keyv keyv-mongodb mongodb
+```
+
 ## Compatibility
 
 - Support [Mongoose](http://mongoosejs.com/index.html) `>= 6`
